@@ -1,5 +1,5 @@
-.mockup-background {
+#BM {
     height: 100vh;
-    background-image: url('../assets/ScreenshotBM.png');
-    background-size: cover;
+    background: url('../assets/ScreenshotBM.png') center;
+    z-index: 2;
 }
