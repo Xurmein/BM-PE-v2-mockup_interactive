@@ -1,0 +1,19 @@
+.personas-list {
+  //  visibility: hidden;
+    z-index: 5;
+    position: fixed;
+    float: right;
+    right: 0.75em;
+    bottom: 5.5em;
+}
+
+.persona {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.persona-img {
+    height: 50px !important;
+    width: 50px !important;
+    border: 5px solid rgb(99, 120, 156);
+}

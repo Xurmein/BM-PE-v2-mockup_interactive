@@ -1,8 +1,16 @@
+@import '~@angular/material/theming';
+
 .personalization-engine-widget {
-    position: relative;
+    position: fixed;
     float: right;
-    margin-right: 2em;
-    top: 90vh;
+    right: 2em;
+    bottom: 2em;
     height: fit-content;
     width: fit-content;
+}
+
+.widget {
+    border: 5px solid rgb(99, 120, 156);
+    background: url('../../assets/bm-assets/Grace_Headshot.jpg') center;
+    background-size: 50px 50px;
 }

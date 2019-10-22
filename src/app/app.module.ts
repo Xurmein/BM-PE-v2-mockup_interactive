@@ -12,17 +12,20 @@ import {
   MatMenuModule,
   MatExpansionModule,
   MatListModule,
-  MatIconBase,
   MatIconModule,
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { PeFabComponent } from './pe-fab/pe-fab.component';
+import { PersonasListComponent } from './personas-list/personas-list.component';
+import { ChatWindowComponent } from './chat-window/chat-window.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PeFabComponent
+    PeFabComponent,
+    PersonasListComponent,
+    ChatWindowComponent
   ],
   imports: [
     BrowserModule,
